@@ -23,7 +23,7 @@ function logMessage({ type, key, code }) {
     incrementKeypressCounter();
   }
 }
-function changeBg(event, key, code) {
+function changeBg(event) {
   if (event.ctrlKey && event.code === "KeyY") {
     bodyAll.style.backgroundColor = "rgb(153, 225, 120)";
     h1Massage.style.color = "rgb(228, 224, 3)";
