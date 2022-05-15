@@ -43,4 +43,3 @@ function reset() {
 function incrementKeypressCounter() {
   keypressCounter += 1;
 }
-console.log(123);
